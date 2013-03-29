@@ -7,7 +7,7 @@ _Création d'un site web pour le mini projet de fin de première année de DUT S
 _Création du site web_ 
 
 1. Création d'une maquette du site sous Photoshop
-2. _Test de la faisabilité de la maquette, si OUI, alors _3._sinon, _1.
+2. _Test de la faisabilité de la maquette, si OUI, alors_ 3. _sinon,_ 1.
 3. Choix de la méthode pour coder le site, _CMS, Bootstrap, etc…_
 4. Codage du site en type _Wireframe_ sans intégration de textes, images …
 5. Codage du CSS
