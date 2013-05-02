@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Custom CSS pour le site du DUT1+1 par Guillaume B.
+   ========================================================================== */
+
+div#conteneur{
+	background-color: gray;
+}
+
+div#conteneur div#banniere{
+	position: relative;
+	background-color: gray;
+	background-image: url("../img/fond_test2.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	background-position: center top;
+}
+
+div#conteneur div#img-logo{
+	/* Image */
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-size: 180px;
+	background-position: center center;
+	/* Position */
+	display: block;
+	position: absolute;
+	height: 180px;
+	width: 180px;
+	max-width: 100%;
+	top: 0px;
+	padding: 20px 0px 0px 20px;
+}
+
+
+
+
+
+
+
