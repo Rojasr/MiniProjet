@@ -31,8 +31,14 @@ div#conteneur div#img-logo{
 	padding: 20px 0px 0px 20px;
 }
 
+.well{
+	padding-top: 0;
+	margin-top: 20px;
+}
 
-
+.well h3{
+	color: #65aade;
+}
 
 
 
