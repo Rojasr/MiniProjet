@@ -31,6 +31,28 @@ div#conteneur div#img-logo{
 	padding: 20px 0px 0px 20px;
 }
 
+/* Bannier sur Tablette */
+@media (min-width: 768px) and (max-width: 979px){
+	div#conteneur{
+		margin: 0px -20px;
+	}
+	
+	div#conteneur div#img-logo{
+		margin: 0px 0px 0px 20px;
+	}
+}
+
+/* Bannier sur Portable */
+@media (max-width: 767px){
+	div#conteneur{
+		margin: 0px -20px;
+	}
+	
+	div#conteneur div#img-logo{
+		margin: 0px;
+	}
+}
+
 .well{
 	padding-top: 0;
 	margin-top: 20px;
@@ -40,6 +62,9 @@ div#conteneur div#img-logo{
 	color: #65aade;
 }
 
+ul.nav li a{
+	color: #333333;
+}
 
 
 
