@@ -55,6 +55,28 @@
 			<div class="page-header">
 				<h1>Nous contacter <small>par email</small></h1>
 			</div>
+			<form name="mail" method="post" action="./php/mail.php">
+				<fieldset>
+					<p>
+						<label for="id1">Votre Adresse Mail</label>
+						<input type="email" id="id1" value="" name="email" required="required" class="input-xlarge"/>
+						<span class="label label-important">Obligatoire</span>
+					</p>
+					<p>
+						<label for="id2">Votre Nom</label>
+						<input type="text" id="id2" value="" name="sujet" required="required" class="input-xlarge"/>
+						<span class="label label-important">Obligatoire</span>
+					</p>
+					<p>
+						<label for="id3">Votre Message</label>
+						<textarea rows="10" id="id3" name="message" required="required" class="input-xlarge"></textarea>
+						<span class="label label-important">Obligatoire</span>
+					</p>
+					<p>
+						<input type="submit" class="btn btn-primary" value="Envoyer"/>
+					</p>
+				</fieldset>
+			</form>
 		</div>
 		<div class="span3">
 			<div class="well sidebar-nav">
@@ -73,9 +95,9 @@
 				<hr>
 				<h3>Infos</h3>
 				<ul class="nav nav-list">
-					<li><a href="#">Plan du site</a></li>
-					<li><a href="#">Mentions légales</a></li>
-					<li><a href="#">Nous contacter</a></li>
+					<li><a href="#"><i class="icon-info-sign"></i>Plan du site</a></li>
+					<li><a href="#"><i class="icon-exclamation-sign"></i>Mentions légales</a></li>
+					<li><a href="#"><i class="icon-question-sign"></i>Nous contacter</a></li>
 				</ul>	
 			</div>
 		</div>
