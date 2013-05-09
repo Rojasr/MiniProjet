@@ -9,7 +9,7 @@ div#conteneur{
 div#conteneur div#banniere{
 	position: relative;
 	background-color: gray;
-	background-image: url("../img/fond_test2.jpg");
+	background-image: url("../img/fond.jpg");
 	background-repeat: no-repeat;
 	height: 200px;
 	background-position: center top;
